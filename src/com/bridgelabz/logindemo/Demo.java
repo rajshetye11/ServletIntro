@@ -1,4 +1,4 @@
-package com.bridgelabz.demo;
+package com.bridgelabz.logindemo;
 
 import java.io.IOException;
 import java.io.PrintWriter;
