@@ -11,17 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/Demo")
 public class Demo extends HttpServlet {
-	private static final long serialVersionUID = 1L;
-   
-    public Demo() {
-        super();
-        
-    }
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		PrintWriter out= response.getWriter();
-		out.print("<h1>hello Servlet<h1>");
+		out.print("<h1>First Servlet<h1>");
 	}
 
 
